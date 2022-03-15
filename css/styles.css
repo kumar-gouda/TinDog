@@ -1,0 +1,148 @@
+#title{
+background-color: #ff4c68;
+color:white;
+}
+#cta{
+    background-color: #ff4c68;
+    color:white;
+    text-align: center;
+    padding-top: 10%;
+    }
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+#press{
+    background-color: #ef8172;
+    color: white;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#features{
+    padding: 10% 13% ;
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 1;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+h3{
+    /* font-weight: 600; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+}
+h2{
+    /* font-weight: 600; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+.logo{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.logo:hover{
+    color: #ff4c68;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid
+{
+    padding: 0 15%;
+}
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.dload-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title img */
+.ttl-img{
+    width: 60%;
+    size: 80%;
+    left: 30%;
+    transform: rotate(25deg);
+    position: relative;
+}
+/* feature box */
+.featbox
+{
+    text-align: center;
+    padding: 4%;
+}
+/* testimonial image */
+.testm-img{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+/* press-logo */
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* carousel-control-prev */
+.carousel-item{
+    padding: 7% 15% 4%;
+}
+/* pricing column */
+.prc-col{
+padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width: 1028px){
+    .ttl-img{
+        left: 0%;
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title{
+        text-align: center;
+        }
+}
+
+.social{
+    color: black;
+    margin: 10px 10px;
+}
